@@ -1,0 +1,101 @@
+body{
+    background-color:#E5989B;
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+h1{
+    color:blue;
+    font-family: 'Courier New', Courier, monospace;
+}
+h2{
+    color:blue;
+    font-family: 'Courier New', Courier, monospace;
+}
+h3{
+    color:blue;
+    font-family: 'Courier New', Courier, monospace;
+}
+p{
+    color: #343a40;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ul{
+   color: blue;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
+ol{
+    color: red;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
+.nav-enlace{
+    background-color: salmon;
+    color: #fff;
+    padding: 10px 30px;
+
+}
+.nav-enlace:hover{
+    background-color: rosybrown;
+}
+nav{
+    background-color: rebeccapurple;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+header, section, footer{
+    padding: 20px;
+    color: white;
+    border:2px solid #ccc ;
+}
+header{
+    border:2px solid #ccc ;
+    background-color:#E5989B;
+}
+section{
+    border: 2px solid black; 
+    background-color: #E5989B;
+    min-height: 200px;
+}
+footer{
+    border: 2px solid #ccc;
+    background-color: #343a40;
+    text-align: center;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 100vh;
+    grid-template-rows: auto ; /* Filas: header, main, footer */
+    grid-template-columns: auto;
+  grid-template-areas:
+    "header header"
+    "main main"
+    "footer footer";
+  gap: 10px;
+  height: 100vh; /* Ajusta la altura */
+    
+}
+section{
+    border: 2px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+.footer {
+  grid-area: footer;
+  background-color: #f0f0f0; /* Ejemplo de estilo */
+  padding: 10px;
+}
+.s1{ background-color:#E5989B;}
+.s2{ background-color:#E5989B;}
+.s3{ background-color:#E5989B;}
+.s4{ background-color:#E5989B;}
